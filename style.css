@@ -10,7 +10,7 @@ body{
   background-size: cover;
   margin: 0; 
   height: 100%; 
-  overflow: hidden
+  overflow: hidden;
 }
 header{
     background-color: rgba(0, 0, 0, 0);
@@ -28,6 +28,9 @@ header{
     text-decoration: none;
     border-radius: 5px;
     border: solid 0px white;
+}
+.Links3{
+    text-align: right;
 }
 .topnav {
     overflow: hidden;
@@ -73,7 +76,7 @@ section{
     display: flex;
     justify-content: center;
     font-size: 20px;
-    height: 20px;
+    height: 40px;
 }
 h2{
 display: flex;
@@ -117,4 +120,181 @@ font-size: 30px;
     column-gap: 10px;
     row-gap: 15px;
    justify-content: center;
+}
+
+.InsideProj{
+    width: max-content;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 400px 100px 100px; 
+    column-gap: 10px;
+    row-gap: 15px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.ShrekProj{
+    width: 275px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sh-text{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.shrek-img1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.shrek-img{
+    height: 165px;
+}
+.text-s{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.nuphud{
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.sgithub {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    background: linear-gradient(to top, black 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+}
+.sfigma {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    background: linear-gradient(to top, black 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top left;
+    transition: all .5s ease-out;
+}
+.arduino{
+    width: 275px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.arh-text{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.ard-img1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+}
+.ard-img{
+    height: 140px;
+}
+.ard-p{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+.sadam{
+    width: 275px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sadamh-tekst{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.sadam1-img{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.sadam-img{
+    height: 165px;
+}
+.text-sadam{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+
+.KAK100Port{
+    width: 275px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.kak100-tekst{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.kak100-img{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.kak100-img{
+    height: 165px;
+}
+.text-kak100{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+[aria-disabled="true"] {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+.nuphud1{
+    background-color: white;
+    padding-top: 35px;
+    padding-left: 5px;
+    display: flex;
 }
