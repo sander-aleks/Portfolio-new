@@ -33,13 +33,16 @@ header{
     text-decoration: none;
     border-radius: 5px;
     border: solid 0px white;
+    float: right;
+    
 }
 .Links3{
     text-align: right;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .topnav {
     overflow: hidden;
-    background-color: rgba(42, 173, 206, 0);
+    background-color: rgba(255, 255, 255, 0.623);
     position: relative;
 }
 .topnav a {
@@ -58,24 +61,39 @@ header{
     font-size: 30px;
 }
 .topnav a:hover.icon {
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.623);
     color: black;
+    border-bottom-left-radius: 10px;
 }
 .active {
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.623);
     color: black;
 } 
 section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 750px;
 }
 .InsideBox{
     width: 800px;
     height: 500px;
     background-color: rgba(255, 255, 255, 0.623);
     border-radius: 10px;
+}
+.Inbox {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px; 
+}
+.Tuttext {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.pilt {
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
 }
 .Text{
     display: flex;
@@ -302,4 +320,7 @@ h2{
     padding-top: 35px;
     padding-left: 5px;
     display: flex;
+}
+@media screen and (max-width: 700px) {
+    width: 80%;
 }
